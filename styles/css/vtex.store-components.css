@@ -24,14 +24,11 @@
     color: white;
     background-color: blue;
     border: transparent;
-    max-width: 1260px;
-    margin: 0 auto;
-    padding: 0;
+
 
 }
 .infoCardContainer--vintage {
     background-color: #edcfd1;
-    max-width: 1260px;
 
   }
   .infoCardContainer--metal {
