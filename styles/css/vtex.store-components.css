@@ -20,7 +20,7 @@
 };
 
 .infoCardCallActionContainer :global(.vtex-button):hover {
-    color: grey;
+    color: gray;
     background-color: white;
     border: transparent;
 };
