@@ -12,7 +12,7 @@
     /*border: 2px solid black;
     padding: 24px;*/
 }
-:
+
 .infoCardCallActionContainer :global(.vtex-button) {
     color: white;
     background-color: blue;
