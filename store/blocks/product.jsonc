@@ -21,6 +21,7 @@
   },
   "product-images": {
     "props": {
+      
     }
   },
   "flex-layout.col#right": {
@@ -32,6 +33,12 @@
   },
   "product-name": {
     "props": {
+      "preventVerticalStretch": false,
+      "verticalAlign": "button",
+      "isFullModeStyle": true,
+      "headline": "Black Friday",
+      "callToActionText": "Subscribe",
+      "textPosition": "center"
     }
   },
   "product-price": {
