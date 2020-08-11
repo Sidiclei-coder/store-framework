@@ -35,8 +35,8 @@
     "product-images": {
       "props": {
         "displayThumbnailsArrows": true,
-        "imageUrl": "https://appliancetheme.vteximg.com.br/3-colors-retro-stand-mixer/p",
-    "maxWidth": "100%"
+        "src": "https://appliancetheme.vteximg.com.br3-colors-retro-stand-mixer/p",
+        "maxWidth": "100%"
       }
     },
     "product-brand": {
@@ -86,7 +86,7 @@
 
       "sku-selector": {
         "props": {
-          "hideImpossibleCombinations": true
+          "hideImpossibleCombinations": false
         }
       },
         "product-quantity": {
