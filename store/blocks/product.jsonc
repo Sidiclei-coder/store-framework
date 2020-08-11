@@ -7,9 +7,7 @@
 
   "flex-layout.row#main": { 
     "props": { 
-      "marginTop": 6,
-      "preventVerticalStretch": false,
-      "verticalAlign": false
+      "marginTop": 6
     },
     "children": [
       "flex-layout.col#left",
@@ -35,18 +33,24 @@
   },
   "product-name": {
     "props": {
+      "preventVerticalStretch": false,
+      "verticalAlign": "top",
       "showSKU": true,
       "showBrandName": true
     }
   },
   "product-price": {
     "props": {
+      "preventVerticalStretch": false,
+      "verticalAlign": "top",
       "showSavings": true,
       "showListPrice": false
     }
   },
   "buy-button": {
     "props": {
+      "preventVerticalStretch": false,
+      "verticalAlign": "top",
       "isOneClickBuy": true,
       "showTooltipOnSkuNotSelected": false
     }
