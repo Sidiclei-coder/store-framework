@@ -31,16 +31,16 @@
       "buy-button"
     ],
     "props": {
-      "blockClass": "textColumn",
+      "verticalAlign": "middle",
       "preventVerticalStretch": true
     }
   },
   "product-name": {
     "props": {
-      "preventVerticalStretch": false,
-      "verticalAlign": "top"
-     // "showSKU": true,
-     // "showBrandName": true
+     // "preventVerticalStretch": false,
+      //"verticalAlign": "top"
+        "showSKU": true,
+        "showBrandName": true
     }
   },
   "product-price": {
@@ -48,7 +48,7 @@
     //  "preventVerticalStretch": false,
     //  "verticalAlign": "top",
       "showSavings": true,
-      "showListPrice": false
+      "showListPrice": true
     }
   },
   "buy-button": {
