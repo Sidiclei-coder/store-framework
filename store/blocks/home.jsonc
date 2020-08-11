@@ -1,8 +1,8 @@
 {
   "store.home": {
     "blocks": [
-      "info-card",
-      "store.product"
+      //"info-card",
+      "store.search"
       //"responsive-layout.desktop#desktop",
       //"responsive-layout.mobile#mobile"
       //"responsive-layout.phone"
