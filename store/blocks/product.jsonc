@@ -23,7 +23,8 @@
     },
     "flex-layout.col#left": {
       "children": [
-        "stack-layout#brand"
+        "stack-layout#brand",
+        "filter-navigator.v3"
       ]
     },
     "stack-layout#brand": {
@@ -53,7 +54,8 @@
         "product-price",
         "flex-layout.row#qty-sku",
         "shipping-simulator",
-        "buy-button"
+        "buy-button",
+        "search-content"
         ],
       
       "props": {
@@ -108,6 +110,12 @@
           "isOneClickBuy": true,
           "showTooltipOnSkuNotSelected": false
         }
+      },
+      "search-content": {
+        "blocks": ["gallery", "not-found"]
+      },
+      "gallery": {
+        "blocks": ["product-summary.shelf"]
       }
     
 }
