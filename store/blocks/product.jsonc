@@ -78,21 +78,19 @@
             "skuID": "342"
           }
         }
+      },
+      "product-price": {
+        "props": {
+          "showSavings": true,
+          "showListPrice": true
+        }
+      },
+      
+      "buy-button": {
+        "props": {
+          "isOneClickBuy": true,
+          "showTooltipOnSkuNotSelected": false
+        }
       }
-    },
-  
-
-  "product-price": {
-    "props": {
-      "showSavings": true,
-      "showListPrice": true
     }
-  },
-  
-  "buy-button": {
-    "props": {
-      "isOneClickBuy": true,
-      "showTooltipOnSkuNotSelected": false
-    }
-  }
 }
