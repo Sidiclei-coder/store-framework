@@ -21,7 +21,7 @@
   },
   "product-images": {
     "props": {
-      
+      "displayThumbnailsArrows": true      
     }
   },
   "flex-layout.col#right": {
@@ -33,20 +33,20 @@
   },
   "product-name": {
     "props": {
-      "preventVerticalStretch": false,
-      "verticalAlign": "button",
-      "isFullModeStyle": true,
-      "headline": "Black Friday",
-      "callToActionText": "Subscribe",
-      "textPosition": "center"
+      "showSKU": true,
+      "showBrandName": true
     }
   },
   "product-price": {
     "props": {
+      "showSavings": true,
+      "showListPrice": false
     }
   },
   "buy-button": {
     "props": {
+      "isOneClickBuy": true,
+      "showTooltipOnSkuNotSelected": false
     }
   }
 }
