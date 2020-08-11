@@ -35,7 +35,7 @@
     "product-images": {
       "props": {
         "displayThumbnailsArrows": true,
-        "src": "https://appliancetheme.vteximg.com.br3-colors-retro-stand-mixer/p",
+        "imageUrl": "https://appliancetheme.vteximg.com.br/arquivos/cozinha-rosa-min.png",
         "maxWidth": "100%"
       }
     },
@@ -86,7 +86,8 @@
 
       "sku-selector": {
         "props": {
-          "hideImpossibleCombinations": false
+          "hideImpossibleCombinations": false,
+          "showValueForVariation": "image"
         }
       },
         "product-quantity": {
