@@ -6,63 +6,92 @@
     ]
   },
   "breadcrumb": {
-    "props": {
-      "showOnMobile": true
-    }
+     "props": {
+       "showOnMobile": true
+     }
   },
 
   "flex-layout.row#main": { 
-    "props": { 
-      "marginTop": 6
+     "props": { 
+       "marginTop": 6
+      },
+     "children": [
+        "flex-layout.col#left",
+        "flex-layout.col#right",
+      ]
     },
-    "children": [
-      "flex-layout.col#left",
-      "flex-layout.col#right",
-    ]
-  },
-  "flex-layout.col#left": {
-    "children": [
-      "product-images"
-    ]
-  },
-  "product-images": {
-    "props": {
-     // "displayThumbnailsArrows": true      
-    }
-  },
-  "flex-layout.col#right": {
-    "children": [
-      "product-name",
-      "product-identifier.product",
-      "product-price",
-      "buy-button"
-      ],
+    "flex-layout.col#left": {
+      "children": [
+        "product-images"
+      ]
+    },
+    "product-images": {
+      "props": {
+       // "displayThumbnailsArrows": true      
+      }
+    },
+    "flex-layout.col#right": {
+      "children": [
+        "product-name",
+        "product-identifier.product",
+        "product-price",
+        "buy-button"
+        ],
       
-    "props": {
-      "verticalAlign": "middle",
-      "preventVerticalStretch": true
+      "props": {
+        "verticalAlign": "middle",
+        "preventVerticalStretch": true
       },
   
-    "product-name": {
-      "props": {
-        "showSKU": true,
-        "showBrandName": true
-      }
-    },
-    
+      "product-name": {
+        "props": {
+         "showSKU": true,
+          "showBrandName": true
+        },
+       "flex-layout.row#qty-sku": {
+         "props": { 
+           "marginTop": 6
+          },
 
-    "product-price": {
-      "props": {
-        "showSavings": true,
-        "showListPrice": true
-      }
-    },
+        "flex-layout.row#qty-sku": {
+          "children": [
+            "sku-selector",
+            "product-quantity",
+            "shipping-simulator"
+            ]
+        },
+        "product-quantity": {
+          "props": {
+            "warningQuantityThreshold": 9999999
+          }
+        },
   
-    "buy-button": {
-      "props": {
-        "isOneClickBuy": true,
-        "showTooltipOnSkuNotSelected": false
+        "sku-selector": {
+          "props": {
+            "hideImpossibleCombinations": false
+          }
+        },
+  
+        "shipping-simulator": {
+          "props": {
+            "skuID": "342"
+          }
+        }
       }
+    }
+  },
+
+  "product-price": {
+    "props": {
+      "showSavings": true,
+      "showListPrice": true
+    }
+  },
+  
+  "buy-button": {
+    "props": {
+      "isOneClickBuy": true,
+      "showTooltipOnSkuNotSelected": false
     }
   }
 }
