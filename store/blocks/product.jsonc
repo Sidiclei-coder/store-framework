@@ -31,17 +31,24 @@
       }
     },
     "flex-layout.col#right": {
+      "props": {
+        "verticalAlign": "middle",
+        "preventVerticalStretch": true,
+        "rowGap": 0
+      },
       "children": [
         "product-name",
         "product-identifier.product",
         "product-price",
         "flex-layout.row#qty-sku",
         "buy-button"
-        ],
+        ]
+      },
       
       "props": {
         "verticalAlign": "middle",
-        "preventVerticalStretch": true
+        "preventVerticalStretch": true,
+        "rowGap": 0
       },
   
       "product-name": {
@@ -93,5 +100,5 @@
           "showTooltipOnSkuNotSelected": false
         }
       }
-    }
+    
 }
