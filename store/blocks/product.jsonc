@@ -37,7 +37,31 @@
       "product-price",
         "flex-layout.row#qty-sku",
         "buy-button"
-      ]
+      ],
+      "flex-layout.row#qty-sku": {
+        "children": [
+          "sku-selector",
+          "product-quantity",
+          "shipping-simulator"
+        ],
+        "product-quantity": {
+          "props": {
+            "warningQuantityThreshold": 9999999
+          }
+        },
+    
+        "sku-selector": {
+          "props": {
+            "hideImpossibleCombinations": false
+          }
+        },
+    
+        "shipping-simulator": {
+          "props": {
+            "skuID": "342"
+          }
+        }
+      }
     },
       
     "props": {
@@ -58,30 +82,7 @@
       "showListPrice": true
     }
   },
-  "flex-layout.row#qty-sku": {
-    "children": [
-      "sku-selector",
-      "product-quantity",
-      "shipping-simulator"
-    ],
-    "product-quantity": {
-      "props": {
-        "warningQuantityThreshold": 9999999
-      }
-    },
-
-    "sku-selector": {
-      "props": {
-        "hideImpossibleCombinations": false
-      }
-    },
-
-    "shipping-simulator": {
-      "props": {
-        "skuID": "342"
-      }
-    }
-  },
+  
   "buy-button": {
     "props": {
       "isOneClickBuy": true,
