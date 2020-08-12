@@ -10,11 +10,6 @@
             "tab-list#home",
             "tab-content#home"
         ]
-
-       // "props": {
-        //    "blockClass": "home",
-       //     "defaultActiveTabId": "home1"
-       //   }
     },
 
     "tab-list#home": {
@@ -51,14 +46,6 @@
           }
     },
 
-    "rich-text#1": {
-        "props": {
-          "text": "Área do conteúdo da tab-list.item com  tabId = majorAppliances",
-          "textPosition": "CENTER",
-          "font": "t-heading-3"
-        }
-      },
-
     "tab-content.item#home2": {
         "children": [
           "rich-text#2"
@@ -67,6 +54,14 @@
             "tabId": "electronics"
           }
     },
+
+    "rich-text#1": {
+        "props": {
+          "text": "Área do conteúdo da tab-list.item com  tabId = majorAppliances",
+          "textPosition": "CENTER",
+          "font": "t-heading-3"
+        }
+      },
 
     "rich-text#2": {
         "props": {
