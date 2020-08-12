@@ -9,12 +9,12 @@
         "children": [
             "tab-list#home",
             "tab-content#home"
-        ],
+        ]
 
-        "props": {
-            "blockClass": "home",
-            "defaultActiveTabId": "home1"
-          }
+       // "props": {
+        //    "blockClass": "home",
+       //     "defaultActiveTabId": "home1"
+       //   }
     },
 
     "tab-list#home": {
