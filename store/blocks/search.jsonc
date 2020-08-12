@@ -40,14 +40,32 @@
      "flex-layout.col#left": {
       "children": [
         "filter-navigator.v3"
-      ]
+      ],
+      "props": {
+        "width": "20%"
+      }
      },
 
      "flex-layout.col#right": {
        "children": [
          "search-content"
-       ]
+       ],
+       "props": {
+        "width": "20%"
+      }
      },
+
+     "search-content": {
+      "blocks": [
+        "gallery",
+        "not-found"]
+    },
+
+    "gallery": {
+      "blocks": [
+        "product-summary.shelf"
+      ]
+    },
     
     
   "flex-layout.col#filter": {
@@ -57,3 +75,15 @@
    }
   
 }
+/*"product-summary.shelf": {
+  "children": [
+    "product-summary-image",
+    "product-summary-add-to-list-button",
+    "product-summary-name",
+    "product-rating-inline",
+    "product-summary-space",
+    "product-summary-price",
+    "product-identifier.summary",
+    "product-summary-buy-button"
+  ]
+ }*/
