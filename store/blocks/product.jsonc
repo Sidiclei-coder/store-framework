@@ -54,8 +54,7 @@
         "product-price",
         "flex-layout.row#qty-sku",
         "shipping-simulator",
-        "buy-button",
-        "search-content"
+        "buy-button"
         ],
       
       "props": {
@@ -110,12 +109,6 @@
           "isOneClickBuy": true,
           "showTooltipOnSkuNotSelected": false
         }
-      },
-      "search-content": {
-        "blocks": ["gallery", "not-found"]
-      },
-      "gallery": {
-        "blocks": ["product-summary.shelf"]
       }
     
 }
