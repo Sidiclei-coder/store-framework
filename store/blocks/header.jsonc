@@ -58,7 +58,10 @@
             "header-spacer",
             "vtex.menu@2.x:menu#categories",
             "header-spacer"
-          ]
+          ],
+           "props":{
+              "orientation": "horizontal"
+            }
         },
 
         "header-row#main-mobile": {
