@@ -1,4 +1,20 @@
-{
+{  
+  "vtex.menu@2.x:menu#categories": {
+  "children": [
+    "menu-item#major-appliances",
+    "menu-item#small-appliances",
+    "menu-item#electronics"
+  ],
+
+  "props":{
+    "orientation": "horizontal"
+  }
+},
+"vtex.menu@2.x:submenu#major":{
+  "children":[
+    "vtex.menu@2.x:menu#major"
+  ]
+},
   "menu-item#major-appliances": {
       "props": {
       "type": "custom",
@@ -48,7 +64,7 @@
       "highlight": true,
       "itemProps": {
         "categoryId": 5, 
-        "text": "Ranges & Ovens"
+        "text": "Ovens"
       }
     }
   },
@@ -59,7 +75,7 @@
       "highlight": true,
       "itemProps": {
         "categoryId": 6, 
-        "text": "Washers & Dryers"
+        "text": "Washers"
       }
     }
   },
