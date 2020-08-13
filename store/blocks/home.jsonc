@@ -2,7 +2,7 @@
   "store.home": {
     "blocks": [
       //"info-card",
-      "store.custom#about-us"
+      "header"
       //"responsive-layout.desktop#desktop",
       //"responsive-layout.mobile#mobile"
       //"responsive-layout.phone"
