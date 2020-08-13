@@ -1,7 +1,7 @@
 <svg class="dn" height="0" version="1.1" width="0"
   xmlns="http://www.w3.org/2000/svg">
   <defs>
-    <g id="bnd-cart">
+    <g id="hnd-cart">
     <path fill="currentColor" d="M4,13H1c-0.552,0-1-0.448-1-1v0c0-0.552,0.448-1,1-1h3V13z"></path>
      <path fill="currentColor" d="M15,3H1C0.448,3,0,2.552,0,2v0c0-0.552,0.448-1,1-1h14c0.552,0,1,0.448,1,1v0C16,2.552,15.552,3,15,3z"></path>
       <path fill="currentColor" d="M4,8H1C0.448,8,0,7.552,0,7v0c0-0.552,0.448-1,1-1h3V8z"></path>
