@@ -1,5 +1,5 @@
 {
-    "footer": {
+   /* "footer": {
         "blocks": [
             "footer-layout.desktop"
         ]
@@ -59,7 +59,7 @@
             ]
         }
     }
-} /*
+} */
     "footer": {
       "blocks": [
         "footer-layout.desktop",
@@ -133,4 +133,4 @@
           ]
         }
       }  
-}*/
+}
